@@ -6,7 +6,9 @@ using namespace std;
 
 int main()
 {
-	string s="We are programmers, and we are wrting bugs.";
+// 	string s="We are programmers, and we are wrting bugs.";
+	string s;
+	gets(s);
 	vector<int>num; 
 	
 	for(int i=0;i<s.size();i++)
